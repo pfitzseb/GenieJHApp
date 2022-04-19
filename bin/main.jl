@@ -18,4 +18,4 @@ route("/json") do
 end
 
 # Start the app!
-up(8888, async = false, verbose = true)
+up(8888, "0.0.0.0", async = false, verbose = true)
